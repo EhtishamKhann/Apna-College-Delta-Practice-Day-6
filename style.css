@@ -1,0 +1,74 @@
+/* universal selector */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Element Selector */
+
+h3{
+    color: brown;
+}
+
+/* id selector */
+
+/* #login{
+    color: rgb(0, 0, 0);
+}
+
+#signup{
+    color: rgb(0, 0, 0);
+} */
+
+/* class selector */
+
+.names{
+    color:rgb(30, 134, 42);
+}
+
+/* descendant selector */
+
+p a{
+    color:red;
+}
+
+/* sibling combinator */
+
+p + h3 {
+    text-decoration: underline;
+}
+
+/* child combinator */
+
+span>button{
+    background-color: rgb(42, 149, 165);
+}
+
+/* attribute selector */
+
+input[type="text"]
+{
+    color: red;
+}
+
+input[type="password"]
+{
+    color: green;
+}
+
+input[type]{
+    background-color: burlywood;
+}
+
+/* Pseudo Class */
+
+.loginSignup:hover{
+    color: white;
+    background-color: green;
+}
+
+/* Pseudo element */
+
+h1::first-letter{
+    color: red;
+}
